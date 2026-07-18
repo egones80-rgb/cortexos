@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# Claude session state (manter local, não versionar)
+.claude/projects/
+.claude/sessions/
+.claude/shell-snapshots/
+.claude/telemetry/
+.claude/file-history/
+.claude/backups/
+
+# Dependências
+node_modules/
+
+# Dados sensíveis (manter README explicativo)
+dados/*.csv
+dados/*.xlsx
+dados/*.xls
+dados/*.txt
+dados/*.pdf
+dados/*.json
+!dados/README.md
+
+# Saídas geradas (versionar seletivamente pelo usuário via /salvar)
+.env
+.env.*
+*.local
+
+# Imagens geradas podem ficar locais até serem publicadas
+saidas/*/*.png
+saidas/*/*.jpg
+saidas/*/*.webp
