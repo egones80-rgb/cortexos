@@ -1,6 +1,6 @@
 ---
 name: responder-avaliacoes
-description: Gera resposta humana pra avaliações do Google Meu Negócio. Tom pessoal, específico, 1-3 frases, sem corporativo. Use quando o usuário disser "responder avaliação", "avaliação do GMB", "responder review", "tô负 comentários do google".
+description: Gera resposta humana pra avaliações do Google Meu Negócio. Tom pessoal, específico, 1-3 frases, sem corporativo. Use quando o usuário disser "responder avaliação", "avaliação do GMB", "responder review", "responder comentários do google".
 ---
 
 # /responder-avaliacoes

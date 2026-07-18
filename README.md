@@ -41,12 +41,12 @@ A entrevista `/instalar` faz 10 perguntas curtas e popula todo o sistema.
 
 ---
 
-## Skills nativas (15)
+## Skills nativas
 
-**Núcleo**
+**Núcleo (6)**
 - `abrir` · `salvar` · `atualizar` · `novo-projeto` · `mapear-rotinas` · `instalar`
 
-**Conteúdo e SEO**
+**Conteúdo e SEO (7)**
 - `carrossel` (1080×1350 → PNG via Playwright)
 - `publicar-tema` (orquestrador: blog + carrossel + 3 legendas)
 - `seo` (pipeline de 8 passos: demanda, concorrência, GMB, on-page, conteúdo, ads, monitoramento, GEO)
@@ -55,16 +55,24 @@ A entrevista `/instalar` faz 10 perguntas curtas e popula todo o sistema.
 - `responder-avaliacoes` (resposta humana pra reviews do GMB)
 - `aprovar-post` (draft → publicado: copia PNG, push, posta via Meta API)
 
-**Anúncios e análise**
+**Anúncios e análise (3)**
 - `anuncio-google` (estrutura completa de campanha → CSV pro Editor)
 - `relatorio-ads` (relatório semanal executivo a partir dos CSVs)
 - `analisar-dados` (CSV/XLSX/PDF/JSON → resumo executivo)
 
-**Comercial**
+**Comercial (4)**
 - `proposta-comercial` (briefing → HTML com a marca)
 - `publicar-site` (HTML → Cloudflare Pages)
 - `publicar-instagram` (Post for Me + Graph API)
 - `email-profissional` (rascunho com calibração de tom)
+
+**Slash commands de atalho (4, em `.claude/commands/`)**
+- `/iniciar` → alias de `/abrir`
+- `/syncar` → alias de `/salvar`
+- `/mapear` → alias de `/mapear-rotinas`
+- `/conteudo` → roteador para skills de conteúdo
+
+**Total:** 24 skills + 4 slash commands de atalho.
 
 ---
 
@@ -86,8 +94,8 @@ Três camadas:
 ```
 cortexos/
 ├── .claude/
-│   ├── commands/         # slash commands principais
-│   └── skills/           # 15 skills nativas
+│   ├── commands/         # 4 slash commands (aliases)
+│   └── skills/           # 24 skills nativas
 ├── _memoria/             # memória persistente (carregada sempre)
 │   ├── empresa.md
 │   ├── preferencias.md

@@ -132,7 +132,10 @@
 ### GA4 (Google Analytics 4)
 - **Pra que:** leitura de dados de analytics
 - **Instalar:** API REST com service account
-- **Env varsA API key foi rejeitada. Confira a chave no setup ou solicite uma nova. de campanhas Meta Ads
+- **Env vars:** conforme documentação oficial do GA4
+
+### Meta Ads API (Graph API)
+- **Pra que:** leitura de dados de campanhas Meta Ads
 - **Instalar:** app em developers.facebook.com
 - **Env vars:** `META_ADS_ACCESS_TOKEN`, `META_ADS_ACCOUNT_ID`
 

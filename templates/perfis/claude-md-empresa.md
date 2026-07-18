@@ -12,7 +12,7 @@ Você é Claude Code operando um CortexOS para uma empresa estruturada — com d
 ├── identidade/          # carregado em tarefas visuais
 ├── marketing/           # marketing institucional
 ├── comercial/           # vendas, propostas, pipeline
-├── financeiro/          # fluxo de caixa, DRE,预算
+├── financeiro/          # fluxo de caixa, DRE, orçamento
 ├── rh/                  # people ops, contratos, feedbacks
 ├── operacoes/           # SOPs, processos internos
 ├── projetos/            # projetos cross-depto

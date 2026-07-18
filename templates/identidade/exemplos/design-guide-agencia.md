@@ -27,5 +27,5 @@
 
 ## Personalidade visual
 - Confiável, técnico, autoritativo
-- Apropriado pra董事会 e clientes enterprise
+- Apropriado pra diretoria e clientes enterprise
 - Funciona bem em PDF, slides, dashboards e posts

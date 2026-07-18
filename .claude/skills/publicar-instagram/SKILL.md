@@ -93,7 +93,7 @@ O script devolve a URL do post publicado. Salve em `marketing/conteudo/<slug>/pu
 ## Saída
 
 - Post publicado em Instagram e/ou Facebook
-- Log em `marketing/conteudo/<slug>/publicacao-<YYYY-MM-DD>.log`
+- Log consolidado em `marketing/conteudo/publicados.md` (mesmo arquivo usado por `/aprovar-post`)
 
 ## Regras
 

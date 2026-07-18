@@ -1,6 +1,6 @@
 ---
 name: salvar
-description: Faz commit e push do trabalho pro GitHub. Auto-configura o remote na primeira vez. Use quando o usuário disser "salvar", "commit", "push", "subir pro github", "synca", "fazer backup".
+description: Faz commit e push do trabalho pro GitHub. Auto-configura o remote na primeira vez. Use quando o usuário disser "salvar", "commit", "push", "subir pro github", "fazer backup".
 ---
 
 # /salvar (ou /syncar)
@@ -10,11 +10,27 @@ Backup do trabalho no GitHub. Versiona o que mudou, sobe pro remote.
 ## Pré-checagem
 
 1. Verifique se é um repositório git: `git rev-parse --is-inside-work-tree`.
-2. Se não for: `git init` (com confirmação do usuário).
+2. Se não for: trate como **Caso 0** (abaixo).
 3. Verifique se tem remote: `git remote -v`.
-4. Se não tem: pergunte a URL do repositório (ou oriente a criar em `github.com/new`).
+4. Se não tem: trate como **Caso 1** (abaixo).
 
 ## Workflow
+
+### Caso 0 — Não é repositório git
+
+> "Esse diretório não é um repositório Git ainda. Quer inicializar e subir pro GitHub?"
+
+Se sim:
+1. Crie um repo vazio em https://github.com/new (sem README, sem .gitignore, sem licença)
+2. Cole a URL aqui
+3. Execute:
+```bash
+git init -b main
+git add -A
+git commit -m "feat: bootstrap CortexOS"
+git remote add origin <url>
+git push -u origin main
+```
 
 ### Caso 1 — Primeira vez (sem remote)
 

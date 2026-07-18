@@ -1,6 +1,6 @@
 ---
 name: abrir
-description: Começo do dia — carrega memória persistente (_memoria/ e identidade/) e devolve um resumo curto de 5 linhas do que importa agora. Use quando o usuário disser "abrir", "começar o dia", "bom dia", primeira mensagem da sessão, ou após /instalar.
+description: Carrega memória persistente (_memoria/ e identidade/) e devolve um resumo curto de 5 linhas do que importa agora. Use quando o usuário disser "abrir", "começar o dia", primeira mensagem da sessão, ou após /instalar.
 ---
 
 # /abrir (ou /iniciar)

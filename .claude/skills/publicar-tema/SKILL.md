@@ -1,6 +1,6 @@
 ---
 name: publicar-tema
-description: Orquestrador completo — pega um tema e gera post de blog + carrossel + 3 legendas pra Instagram. Use quando o usuário disser "publicar tema", "transforma esse tema em post", "quero conteúdo sobre X".
+description: Orquestrador completo — pega um tema e gera post de blog + carrossel + 3 legendas pra Instagram. Use quando o usuário disser "publicar tema", "transforma esse tema em post", "quero um post sobre X".
 ---
 
 # /publicar-tema

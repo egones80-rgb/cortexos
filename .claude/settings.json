@@ -3,21 +3,32 @@
     "allow": [
       "Bash(ls:*)",
       "Bash(cat:*)",
-      "Bash(git:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git remote:*)",
+      "Bash(git branch:*)",
+      "Bash(git init:*)",
+      "Bash(git rev-parse:*)",
       "Bash(npm:*)",
       "Bash(node:*)",
       "Bash(npx:*)",
       "Bash(python:*)",
       "Bash(python3:*)",
       "Bash(curl:*)",
-      "Bash(env:*)",
       "Bash(mkdir:*)",
       "Bash(cp:*)",
       "Bash(mv:*)",
-      "Bash(rm:*)",
+      "Bash(touch:*)",
       "Read",
       "Write",
-      "Edit"
+      "Edit",
+      "WebFetch",
+      "WebSearch"
     ]
   }
 }

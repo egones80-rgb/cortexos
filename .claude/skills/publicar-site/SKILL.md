@@ -42,8 +42,6 @@ curl -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_
   -F "files=@<caminho-do-html>"
 ```
 
-OU use o script local `scripts/sync-cloudflare.js` que encapsula isso.
-
 ### 4. Aguardar
 
 O deploy leva 30-90 segundos. Polling:

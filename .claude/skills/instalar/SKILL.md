@@ -24,7 +24,21 @@ Pergunte:
 3. **Agência / consultoria** — time pequeno, vários clientes
 4. **Empresa** — estruturada com departamentos
 
-A resposta mapeia para `templates/perfis/claude-md-<perfil>.md` (que define a estrutura de pastas do CLAUDE.md raiz).
+**Mapeamento explícito (use exatamente este slug):**
+
+| Resposta | Slug | Template a usar |
+|---|---|---|
+| 1 (Solopreneur) | `solopreneur` | `templates/perfis/claude-md-solopreneur.md` |
+| 2 (Freelancer) | `freelancer` | `templates/perfis/claude-md-freelancer.md` |
+| 3 (Agência) | `agencia` | `templates/perfis/claude-md-agencia.md` |
+| 4 (Empresa) | `empresa` | `templates/perfis/claude-md-empresa.md` |
+
+**Comando para ler o template:**
+```bash
+cat templates/perfis/claude-md-<slug>.md
+```
+
+Substitua `<slug>` pelo valor exato da tabela acima. Não invente slug diferente.
 
 ## Fase 2 — Entrevista (10 perguntas, uma de cada vez)
 
@@ -70,6 +84,33 @@ Com as respostas em mãos, preencha:
 
 **Importante:** não sobrescreva o `CLAUDE.md` se ele já tiver personalização. Preserve regras existentes e só adapte o que precisar.
 
+**Estratégia de merge do CLAUDE.md:**
+
+O `CLAUDE.md` raiz é formado por 3 blocos:
+
+1. **Kernel** (preservado do template): seções 1-7 do `CLAUDE.md` shipped (leitura de memória, fluxo de skills, aprender com correções, etc.)
+2. **Perfil** (do template escolhido): nome do negócio, estrutura de pastas esperada, tom base
+3. **Personalização** (das respostas): nome do negócio na seção "Sobre", observações específicas do usuário
+
+**Como mesclar:**
+
+```bash
+# 1. Leia o kernel atual (preservado)
+cat CLAUDE.md
+
+# 2. Leia o template do perfil escolhido
+cat templates/perfis/claude-md-<slug>.md
+
+# 3. Combine os dois:
+#    - Mantenha TODAS as seções 1-7 do kernel
+#    - Adicione o bloco "Sobre" + "Estrutura de pastas esperada" + "Tom base" do template de perfil
+#    - Substitua placeholders pelo nome do negócio
+
+# 4. Salve o resultado em CLAUDE.md (sobrescreve com cuidado)
+```
+
+**Regra de ouro:** Se uma regra do kernel conflitar com algo do perfil, o kernel vence. O perfil adiciona, não remove.
+
 ## Fase 4 — Resumo
 
 Mostre uma caixa de check verde:
@@ -82,7 +123,7 @@ Mostre uma caixa de check verde:
 🎨 Identidade visual em: identidade/
 📜 CLAUDE.md personalizado para: <nome do negócio>
 
-Suas 15 skills estão prontas. Suas 5 memórias estão preenchidas.
+Suas 15 skills estão prontas. Suas 4 memórias estão preenchidas (3 em `_memoria/` + 1 em `identidade/`).
 ```
 
 ## Fase 5 — Renomear pasta (se aplicável)
