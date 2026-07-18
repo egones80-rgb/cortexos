@@ -1,6 +1,6 @@
 # Skills do CortexOS
 
-Aqui ficam as 15 skills nativas + os aliases dos comandos herdados do ccos-ratos.
+Aqui ficam as 15 skills nativas + os aliases de comandos pra compatibilidade.
 
 ## Estrutura
 

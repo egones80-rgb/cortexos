@@ -9,12 +9,12 @@
 ### /schwartz-copy
 - **O que faz:** aplica a metodologia de Eugene Schwartz (5 níveis de consciência)
 - **Bom pra:** copy de página de vendas, email longo, anúncios diretos
-- **Instalar de:** `github.com/duduesh/schwartz-copy`
+- **Instalar de:** repositório público da skill (buscar no GitHub)
 
 ### /ogilvy-copy
 - **O que faz:** aplica a metodologia de David Ogilvy (headline, prova, especificidade)
-- **Bom pra:** copy de marca, posicionamento,品牌形象
-- **Instalar de:** `github.com/duduesh/ogilvy-copy`
+- **Bom pra:** copy de marca, posicionamento, autoridade
+- **Instalar de:** repositório público da skill (buscar no GitHub)
 
 ## Design e documento (nativas)
 
@@ -34,17 +34,17 @@
 |---|---|
 | `/yt-transcript` | Extrair transcrição de vídeo do YouTube |
 | `/transcribe` | Transcrever áudio/vídeo via Whisper |
-| **Instalar:** `github.com/duduesh/transcribe` | |
+| **Instalar:** repositório público da skill (buscar no GitHub) | |
 
 ## Tráfego pago
 
 | Skill | Bom pra |
 |---|---|
-| `/ads-ratos` | Orquestrador de campanhas pagas |
-| `/ga4-ratos` | Relatórios do GA4 |
-| `/meta-ads-ratos` | Análise Meta Ads |
-| `/google-ads-ratos` | Análise Google Ads |
-| **Instalar de:** `github.com/duduesh/*` | |
+| `/ads-orchestrator` | Orquestrador de campanhas pagas |
+| `/ga4-rpt` | Relatórios do GA4 |
+| `/meta-ads-rpt` | Análise Meta Ads |
+| `/google-ads-rpt` | Análise Google Ads |
+| **Origem:** repositórios terceiros sob `github.com` | |
 
 ## Descoberta e utilidade
 
