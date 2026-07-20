@@ -1,18 +1,17 @@
 # Estratégia
 
-> Preenchido por `/instalar`. Se ainda estiver vazio, rode `/instalar`.
-
 ## Fase atual
-<!-- Em que fase o negócio está agora? -->
+Início. Sem clientes ativos, montando portfólio e processo de prospecção.
 
 ## Gargalo
-<!-- O que está segurando o crescimento hoje? -->
+- Preguiça que trava a operação em alguns dias
+- Não sabe onde encontrar clientes para a área (edição de vídeo + sites + design)
 
 ## Prioridade
-<!-- O próximo passo estratégico. A coisa que, se acontecer, destrava. -->
+Conseguir os primeiros clientes e construir portfólio público.
 
 ## Pode esperar
-<!-- O que você sabe que é importante, mas não é agora. -->
+Escalar equipe, processos avançados de atendimento, identidade visual completa (logo em aberto).
 
 ## Prazos
-<!-- Datas concretas que importam. -->
+<!-- Não definidos ainda. -->

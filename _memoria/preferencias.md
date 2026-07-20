@@ -1,15 +1,18 @@
 # Preferências
 
-> Preenchido por `/instalar`. Se ainda estiver vazio, rode `/instalar`.
-
 ## Tom de voz
-<!-- Como você escreve quando quer ser entendido. Cole uma legenda, um email, um trecho. -->
+Direto, sem enrolação. Oferece antes de perguntar. Exemplo real:
+
+> "opa eu vi que os seus videos nao são editados, bom eu sou um editor experiente na parte de legendas cortes e efeitos etc, se quiser que eu edito seus videos, vamos prosseguir se quiser dar uma olhada no meu perfil e ver o meu estilo de ediçao."
 
 ## O que evitar
-<!-- Frases, palavras, vícios de linguagem que te dão ranço. -->
+- Jargão de marketing ("alavancar", "sinergia", "vamos juntos")
+- Emoji em excesso
+- Tom formal corporativo ("prezado", "caro cliente", "cordialmente")
 
 ## Estilo geral
-<!-- Formal? Casual? Direto? Storytelling? -->
+Mais formal que casual, mas humano. Sem ser robótico. Frases curtas, sem encher linguiça.
 
 ## Preferências adicionais
-<!-- Coisas específicas que valem lembrar. -->
+- Pouco emoji no geral
+- Clareza > criatividade vazia

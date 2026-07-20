@@ -1,15 +1,13 @@
 # Empresa
 
-> Preenchido por `/instalar`. Se ainda estiver vazio, rode `/instalar`.
-
 ## Nome
-<!-- Como você chama o que você faz (empresa, marca pessoal, projeto). -->
+**LEIKI** (レイキー)
 
 ## O que entrega
-<!-- Uma frase do jeito que você falaria pro vizinho. -->
+Editor de vídeos + cria sites. Trabalha com inteligência artificial, design gráfico e desenvolvimento web. Marca com identidade visual estilo anime/shōnen (referência Dragon Ball).
 
 ## Quem paga
-<!-- Perfil de cliente real, sem persona genérica. -->
+Em fase inicial, sem clientes ativos no momento. Está montando portfólio e começando a prospectar.
 
 ## Equipe
-<!-- Você toca sozinho? Tem equipe? Quem faz o quê? -->
+Sozinho. Toca toda a operação — atendimento, produção, comercial.
